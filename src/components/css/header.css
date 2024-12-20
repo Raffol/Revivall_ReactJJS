@@ -1,0 +1,51 @@
+header {
+}
+
+.navbar {
+    padding: 40px;
+    border: 30px;
+    border-radius: 30px;
+    background-color: green;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    gap: 9px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.projects, .news, .organizers, .about, .events, .ourgames, .registration {
+    padding: 10px;
+    margin: 10px;
+    background-color: #aba244;
+    border-radius: 10px 30px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.projects:hover, .news:hover, .organizers:hover, .about:hover, .events:hover, .ourgames:hover, .registration:hover {
+    background-color: #e59213;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.logout-button {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: darkred;
+}
