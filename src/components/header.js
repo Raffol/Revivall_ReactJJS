@@ -8,7 +8,7 @@ function Header({ isAuthenticated, onLogout }) {
                 <ul className="menu">
                     <li><a href="/homee" className="projects">Главная</a></li>
                     <li><a href="/news" className="news">Новости</a></li>
-                    <li><a href="/organizations" className="organizers">Организаторы</a></li>
+                    <li><a href="/organizers" className="organizers">Организаторы</a></li>
                     <li><a href="/about" className="about">О нас</a></li>
                     <li>
                         <a href="/home">
