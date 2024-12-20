@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Header.css'; // Стили вынесем в отдельный файл
+import './css/header.css'; // Стили вынесем в отдельный файл
 
 function Header({ isAuthenticated, onLogout }) {
     return (
@@ -13,9 +13,9 @@ function Header({ isAuthenticated, onLogout }) {
                     <li>
                         <a href="/home">
                             <img
-                                src="/img/Возрождение.png"
+                                src="/img/Возрождение.PNG"
                                 alt="<<ИРОО Возрождение>>"
-                                style={{ width: '300px', height: '100px' }}
+                                style={{ width: '500px', height: '200px' }}
                             />
                         </a>
                     </li>

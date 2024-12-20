@@ -8,14 +8,14 @@ function Organizers() {
     ];
 
     return (
-        <section id="organizerss">
+        <section id="organization">
             <p style={{ textAlign: 'center', fontSize: '50px' }}>
                 Организационный комитет общественной организации
             </p>
             {members.map((member) => (
                 <div key={member.id} style={{ display: 'flex', gap: '10px', margin: '20px' }}>
                     <img
-                        src="/img/1731650085.jpg"
+                        src="/img/1731652537.jpg"
                         alt=""
                         style={{ width: '100px', height: '100px' }}
                     />
